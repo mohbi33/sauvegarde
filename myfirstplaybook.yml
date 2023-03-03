@@ -1,7 +1,7 @@
 ---
 
 - name: sauvagerder les routeurs
-  hosts: routeurs
+  hosts: routrs
   tasks:
      - name: commande de conf
        cisco.ios.ios_command:
