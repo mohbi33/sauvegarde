@@ -2,10 +2,6 @@
 
 - name: sauvagerder les routeurs
   hosts: routeurs
-  ansible_ssh_user: mo
-  ansible_ssh_pass: mohamed
-  ansible_network_os: ios
-  ansible_connection: network_cli
 
   tasks:
      - name: commande de conf
