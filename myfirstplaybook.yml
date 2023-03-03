@@ -1,0 +1,10 @@
+---
+
+- name: sauvagerder les routeurs
+  hosts: routeurs
+  tasks:
+     - name: commande de conf
+       cisco.ios.ios_command:
+         commands:
+             - write mem
+
