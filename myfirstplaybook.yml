@@ -1,7 +1,7 @@
 ---
 
 - name: sauvagaaaaaaarder les routeurs
-  hosts: routrs
+  hosts: ${PWD##/}/routrs
   tasks:
      - name: commande de conf
        cisco.ios.ios_command:
