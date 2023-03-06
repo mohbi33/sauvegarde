@@ -6,5 +6,8 @@
      - name: commande de conf
        cisco.ios.ios_command:
         commands:
+             - conf t
+             - hostname newname
+             - exit
              - write mem
              
